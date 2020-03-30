@@ -1,0 +1,107 @@
+ body {margin: 0;
+          padding: 12px; }
+.div{
+  width: 70%;
+  height: auto;  
+  padding: 30px;
+  border: 6px solid  lightblue;
+  border-radius: 40px;
+  margin:20px 0px 20px 0px;
+}
+.btn {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 2px 0px 12px 0px;
+}
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 12px;
+  top: 2cm;
+  width: 100%; 
+  height: 100%; 
+  overflow:scroll;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  color: white;
+  background-color: #fefefe;
+  margin: 5px auto 5px auto;
+  border: 6px solid #660033;
+  border-radius:30px;
+  width: 80%; 
+}
+.close {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  color: white;
+  font-size: 2cm;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 4s;
+  animation: animatezoom 4s;
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.a {
+  color: black                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+  width: 80%;
+  text-decoration: none;
+  font-size: x-large;
+}
+.btn1 {
+  width: 70%;
+  border:6px  solid;
+  padding: 15px 180px;
+  text-align: center;
+  margin: 14px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+  border-color: #3399ff;
+}
+.btn1:hover {
+   color: brown;
+}
+    
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  background-color: #2d3246;
+  padding: 10px;
+}
+.grid-item {
+  background-color: lightblue;
+  padding: 0px;
+  font-size: 30px;
+  text-align: left;
+}
